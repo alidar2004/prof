@@ -490,6 +490,11 @@ border: 1px solid #bbb;
 
 @media(max-width:528px){
 
+
+    #home .navbar nav ul a{
+        margin: 0 10px;
+    }
+
 #home .header-content h1{
     font-size: 35px;
 }
@@ -517,4 +522,7 @@ border: 1px solid #bbb;
     max-width: 250px;
     margin: auto;
 }
+#Services .row .item:hover {
+    transform: scale(1.04);
+  }
 }
